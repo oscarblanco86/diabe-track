@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, VERSION } from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -10,4 +10,5 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   public name: string ="Ironman";
   public age:  number =45;
+  public vers: string = `Angular ${VERSION.full} is rad`;
 }
