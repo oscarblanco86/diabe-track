@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Roboto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+.login {
+  /* border: 1px solid black; */
+    height: 500px;
+    /* width: 400px; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+div {
+  /* height: 100%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0; */
+}
+.splash {
+  background: rgb(255, 229, 94);
+  background: linear-gradient(90deg, rgba(255, 229, 94, 1) 0%, rgba(255, 146, 42, 1) 100%);
+  border-radius: 30px;
+}
+.logo, .name {
+  max-width: 10em;
+  padding: 20px;
+  align-content: center;
+  margin: auto;
+  display: block;
+}
+.splash-button {
+  background: rgba(255, 146, 42, 1);
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  align-content: center;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+}
+.buttonText {
+
+}
